@@ -1,11 +1,22 @@
 public class Journal
 {
-    public static List<string> _entries = new List<string>()
+    public List<Entry> _entries = new List<Entry>();
+    
+    public void AddEntry(Entry newEntry)
     {
-    };  
-    public void AddEntry(Entry)
+        _entries.Add(newEntry);
+    }
+    public void DisplayAll()
     {
-        Journal._entries.Add(Entry);
+
+    }
+    public void SaveToFile()
+    {
+        
+    }
+    public void LoadFromFile()
+    {
+        
     }
 
 

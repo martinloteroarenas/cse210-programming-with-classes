@@ -27,12 +27,12 @@ class Program
                 DateTime theCurrentTime = DateTime.Now;
                 string dateText = theCurrentTime.ToShortDateString();
 
-                Journal.AddEntry(dateText);
+                //Journal.AddEntry(dateText);
                 
             
-                Journal._entries.Add(dateText);
-                Journal._entries.Add(prompt);
-                Journal._entries.Add(promptAnswer);
+                //Journal._entries.Add(dateText);
+                //Journal._entries.Add(prompt);
+                //Journal._entries.Add(promptAnswer);
             }
         }
     }
